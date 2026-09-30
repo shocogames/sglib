@@ -1,12 +1,11 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.NonPrimitive
 {
     [CreateAssetMenu(
         fileName = "GameObjectChannel",
         menuName = "Event Channels/NonPrimitive/GameObject Channel"
     )]
-    public class GameObjectChannel_So : SG_ChannelT1_So<GameObject> { }
+    public class GameObjectChannel_So : EventChannelBaseT1_So<GameObject> { }
 }
 

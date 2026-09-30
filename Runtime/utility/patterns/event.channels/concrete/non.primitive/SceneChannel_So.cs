@@ -1,12 +1,11 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.NonPrimitive
 {
     [CreateAssetMenu(
         fileName = "SceneChannel",
         menuName = "Event Channels/NonPrimitive/Scene Channel"
     )]
-    public class SceneChannel_So : SG_ChannelT1_So<UnityEngine.SceneManagement.Scene> { }
+    public class SceneChannel_So : EventChannelBaseT1_So<UnityEngine.SceneManagement.Scene> { }
 }
 

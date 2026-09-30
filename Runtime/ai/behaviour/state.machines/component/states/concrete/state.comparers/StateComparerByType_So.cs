@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    [CreateAssetMenu(menuName = "State Machine/State Comparer/By Type")]
+    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/State Comparer/By Type")]
     public class StateComparerByType_So : StateComparerBase_So
     {
         public override bool Equals(IStateSo x, IStateSo y)

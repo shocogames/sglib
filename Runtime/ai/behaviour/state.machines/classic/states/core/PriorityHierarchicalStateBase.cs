@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using SGLib.Utility.Patterns.EventChannels.Concrete;
+using SGLib.Utility.Patterns.EventChannels.Primitive;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic
 {

@@ -1,7 +1,7 @@
 using System;
 using SGLib.AI.Behaviour.StateMachines.Component;
 using SGLib.Utility.Debug.Logging;
-using SGLib.Utility.Patterns.EventChannels.Concrete;
+using SGLib.Utility.Patterns.EventChannels.Primitive;
 using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component

@@ -1,12 +1,11 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
         fileName = "DoubleChannel",
         menuName = "Event Channels/Primitive/Double Channel"
     )]
-    public class DoubleChannel_So : SG_ChannelT1_So<double> { }
+    public class DoubleChannel_So : EventChannelBaseT1_So<double> { }
 }
 

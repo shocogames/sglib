@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
-using SGLib.Utility.Management.Component.Capabilities;
+using SGLib.Utility.Management.Component;
 using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    public abstract class FSMComponent : SG_Component, IStateMachineComponent
+    public abstract class FSMComponent : ComponentBase, IStateMachineComponent
     {
-        [SerializeField] private State_So initialState;
+        [SerializeField] private FiniteState_So initialState;
         [SerializeField] private StateComparerBase_So customStateComparer;
-        [SerializeField] private State_So[] ownedStates;
+        [SerializeField] private FiniteState_So[] ownedStates;
 
         private IStateSo currentState, previousState;
         private IEqualityComparer<IStateSo> stateComparer;
@@ -108,7 +108,7 @@ namespace SGLib.AI.Behaviour.StateMachines.Component
         {
             if (ownedStates == null) return;
 
-            var stateHashSet = new HashSet<State_So>();
+            var stateHashSet = new HashSet<FiniteState_So>();
 
             for (int i = 0; i < ownedStates.Length; i++)
             {

@@ -1,8 +1,8 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using SGLib.Utility.Patterns.EventChannels.Core;
+using SGLib.Utility.Patterns.EventChannels.Primitive;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels
 {
     public static class EventChannelExtensions
     {
@@ -44,7 +44,7 @@ namespace SGLib.Utility.Patterns.EventChannels.Concrete
             return tcs.Task;
         }
 
-        public static UniTask<T> WaitAsync<T>(this SG_ChannelT1_So<T> channel, CancellationToken cancellationToken = default)
+        public static UniTask<T> WaitAsync<T>(this EventChannelBaseT1_So<T> channel, CancellationToken cancellationToken = default)
         {
             if (cancellationToken.IsCancellationRequested)
             {
@@ -80,7 +80,7 @@ namespace SGLib.Utility.Patterns.EventChannels.Concrete
             return tcs.Task;
         }
 
-        public static UniTask<(T1, T2)> WaitAsync<T1, T2>(this SG_ChannelT2_So<T1, T2> channel, CancellationToken cancellationToken = default)
+        public static UniTask<(T1, T2)> WaitAsync<T1, T2>(this EventChannelBaseT2_So<T1, T2> channel, CancellationToken cancellationToken = default)
         {
             if (cancellationToken.IsCancellationRequested)
             {

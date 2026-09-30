@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using SGLib.Utility.Management.Component.Capabilities;
+using SGLib.Utility.Management.Component;
 using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    public class HFSMComponent : SG_Component, IStateMachineComponent
+    public class HFSMComponent : ComponentBase, IStateMachineComponent
     {
         [SerializeField] private HierarchicalStateBase_So root;
         [SerializeField] private HierarchicalStateBase_So initialLeaf;

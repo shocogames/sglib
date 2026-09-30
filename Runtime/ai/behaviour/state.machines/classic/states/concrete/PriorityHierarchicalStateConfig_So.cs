@@ -1,13 +1,10 @@
 using System;
-using SGLib.Utility.Patterns.EventChannels.Concrete;
+using SGLib.Utility.Patterns.EventChannels.Primitive;
 using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic
 {
-    [CreateAssetMenu(
-    fileName = "PrioritizedHierarchicalState_Config",
-    menuName = "Scriptable Objects/HFSM/Prioritized Hierarchical State Config"
-)]
+    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/Priority Hierarchical State Config")]
     public class PriorityHierarchicalStateConfig_So : StateConfig_So
     {
         [field: SerializeField] public int Priority { get; private set; }

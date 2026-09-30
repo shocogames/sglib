@@ -1,12 +1,11 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
         fileName = "FloatChannel",
         menuName = "Event Channels/Primitive/Float Channel"
     )]
-    public class FloatChannel_So : SG_ChannelT1_So<float> { }
+    public class FloatChannel_So : EventChannelBaseT1_So<float> { }
 }
 

@@ -1,13 +1,12 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.NonPrimitive
 {
     [CreateAssetMenu(
         fileName = "MonoBehaviourChannel",
         menuName = "Event Channels/NonPrimitive/MonoBehaviour Channel"
     )]
-    public class MonoBehaviourChannel_So : SG_ChannelT1_So<MonoBehaviour> { }
+    public class MonoBehaviourChannel_So : EventChannelBaseT1_So<MonoBehaviour> { }
 
 }
 

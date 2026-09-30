@@ -1,12 +1,11 @@
-using SGLib.Utility.Patterns.EventChannels.Core;
 using UnityEngine;
 
-namespace SGLib.Utility.Patterns.EventChannels.Concrete
+namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
         fileName = "BoolChannel",
         menuName = "Event Channels/Primitive/Bool Channel"
     )]
-    public class BoolChannel_So : SG_ChannelT1_So<bool> { }
+    public class BoolChannel_So : EventChannelBaseT1_So<bool> { }
 }
 

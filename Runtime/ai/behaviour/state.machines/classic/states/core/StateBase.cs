@@ -1,4 +1,4 @@
-﻿using SGLib.Utility.Patterns.EventChannels.Concrete;
+﻿using SGLib.Utility.Patterns.EventChannels.Primitive;
 using SGLib.Utility.Patterns.Scene.Contexts;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic

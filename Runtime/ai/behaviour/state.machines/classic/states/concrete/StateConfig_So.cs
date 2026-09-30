@@ -1,13 +1,10 @@
 using System;
-using SGLib.Utility.Patterns.EventChannels.Concrete;
+using SGLib.Utility.Patterns.EventChannels.Primitive;
 using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic
 {
-    [CreateAssetMenu(
-    fileName = "StateConfig_So",
-    menuName = "Scriptable Objects/StateMachine/State Config"
-)]
+    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/State Config")]
     public class StateConfig_So : ScriptableObject
     {
         [field: SerializeField] public VoidChannel_So OnEnter { get; private set; }

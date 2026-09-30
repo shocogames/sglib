@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component.PriorityComparers
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/State Machine/Priority Comparers/Descendant Priority")]
+    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/Priority Comparer/Descendant Priority")]
     public sealed class DescendantPriority_So : PriorityComparerBase_So
     {
         public override int Compare(IPriorityStateSo x, IPriorityStateSo y)
