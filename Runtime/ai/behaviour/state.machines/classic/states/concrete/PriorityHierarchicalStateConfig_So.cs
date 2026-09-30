@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/Priority Hierarchical State Config")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/State Machine/Classic/State/Priority Hierarchical State Config")]
     public class PriorityHierarchicalStateConfig_So : StateConfig_So
     {
         [field: SerializeField] public int Priority { get; private set; }

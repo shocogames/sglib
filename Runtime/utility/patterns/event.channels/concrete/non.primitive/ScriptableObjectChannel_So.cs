@@ -3,8 +3,7 @@ using UnityEngine;
 namespace SGLib.Utility.Patterns.EventChannels.NonPrimitive
 {
     [CreateAssetMenu(
-        fileName = "ScriptableObjectChannel",
-        menuName = "Event Channels/NonPrimitive/ScriptableObject Channel"
+        menuName = "SG Lib/Utility/Patterns/Event Channels/NonPrimitive/<ScriptableObject>"
     )]
     public class ScriptableObjectChannel_So : EventChannelBaseT1_So<ScriptableObject> { }
 }

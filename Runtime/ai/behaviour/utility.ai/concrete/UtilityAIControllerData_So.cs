@@ -2,9 +2,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.UtilityAI
 {
-    [CreateAssetMenu(
-        fileName = "UtilityAIController_Data",
-        menuName = "Scriptable Objects/Utility AI/Controller Data")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/Utility AI/Controller Data")]
     public class UtilityAIControllerData_So : ScriptableObject
     {
         [SerializeField, Min(1), Tooltip("Number of actions that can be selected (Podium size).")]

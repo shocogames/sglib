@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SGLib.Utility.Management.ServiceLocator
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/Utility/Management/Service Locator")]
+    [CreateAssetMenu(menuName = "SG Lib/Utility/Management/Service Locator")]
     public class ServiceLocator_So : ScriptableObject
     {
         [SerializeField] private ServiceBase_So[] services;

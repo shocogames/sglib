@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Classic
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Classic/State/State Config")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/State Machine/Classic/State/State Config")]
     public class StateConfig_So : ScriptableObject
     {
         [field: SerializeField] public VoidChannel_So OnEnter { get; private set; }

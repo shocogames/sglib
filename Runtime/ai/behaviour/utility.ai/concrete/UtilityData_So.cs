@@ -3,8 +3,7 @@ using UnityEngine;
 namespace SGLib.AI.Behaviour.UtilityAI
 {
     [CreateAssetMenu(
-        fileName = "Utility_Data",
-        menuName = "Scriptable Objects/Utility AI/Data"
+        menuName = "SG Lib/AI/Behaviour/Utility AI/Data"
     )]
     public class UtilityData_So : ScriptableObject
     {

@@ -4,8 +4,7 @@ using UnityEngine;
 namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
-        fileName = "VoidChannel",
-        menuName = "Event Channels/Primitive/Void Channel"
+        menuName = "SG Lib/Utility/Patterns/Event Channels/Primitive/<void>"
     )]
     public class VoidChannel_So : ScriptableObject
     {

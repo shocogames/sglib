@@ -3,8 +3,7 @@ using UnityEngine;
 namespace SGLib.Utility.Patterns.EventChannels.NonPrimitive
 {
     [CreateAssetMenu(
-        fileName = "SceneChannel",
-        menuName = "Event Channels/NonPrimitive/Scene Channel"
+        menuName = "SG Lib/Utility/Patterns/Event Channels/NonPrimitive/<Scene>"
     )]
     public class SceneChannel_So : EventChannelBaseT1_So<UnityEngine.SceneManagement.Scene> { }
 }

@@ -3,8 +3,7 @@ using UnityEngine;
 namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
-        fileName = "StringChannel",
-        menuName = "Event Channels/Primitive/String Channel"
+        menuName = "SG Lib/Utility/Patterns/Event Channels/Primitive/<string>"
     )]
     public class StringChannel_So : EventChannelBaseT1_So<string> { }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Component/State/Finite State")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/State Machine/Component/State/Finite State")]
     public class FiniteState_So : StateBase_So
     {
         [SerializeField] private List<FiniteState_So> transitionList;

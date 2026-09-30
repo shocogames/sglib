@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Component/State/Hierarchical State")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/State Machine/Component/State/Hierarchical State")]
     public class HierarchicalState_So : HierarchicalStateBase_So
     {
         [SerializeField] private List<HierarchicalState_So> transitionList;

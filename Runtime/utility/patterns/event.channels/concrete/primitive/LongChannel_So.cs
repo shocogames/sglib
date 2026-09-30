@@ -3,8 +3,7 @@ using UnityEngine;
 namespace SGLib.Utility.Patterns.EventChannels.Primitive
 {
     [CreateAssetMenu(
-        fileName = "LongChannel",
-        menuName = "Event Channels/Primitive/Long Channel"
+        menuName = "SG Lib/Utility/Patterns/Event Channels/Primitive/<long>"
     )]
     public class LongChannel_So : EventChannelBaseT1_So<long> { }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace SGLib.AI.Behaviour.StateMachines.Component
 {
-    [CreateAssetMenu(menuName = "Scriptable Objects/AI/Behaviour/State Machine/Component/State/Priority Hierarchical State")]
+    [CreateAssetMenu(menuName = "SG Lib/AI/Behaviour/State Machine/Component/State/Priority Hierarchical State")]
     public class PriorityHierarchicalState_So : HierarchicalStateBase_So, IPriorityStateSo
     {
         [Header("State configuration")]
